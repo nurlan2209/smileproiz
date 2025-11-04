@@ -1,0 +1,41 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Documentation
+README.md
+RAILWAY_DEPLOY_GUIDE.md
+*.md
+
+# IDE
+.idea
+.vscode
+*.iml
+
+# Flutter (не нужно для backend)
+lib/
+pubspec.yaml
+analysis_options.yaml
+.metadata
+.dart_tool/
+.flutter-plugins-dependencies
+build/
+.packages
+
+# Backend build artifacts
+backend/target/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.temp
