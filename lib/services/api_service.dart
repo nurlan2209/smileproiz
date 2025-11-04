@@ -4,7 +4,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 class ApiService {
   // Для iOS и Web
-  static const String baseUrl = 'http://localhost:8080/api/users';
+  static const String baseUrl = 'http://smileproiz-production.up.railway.app/api/users';
 
   // Проверка статуса авторизации
   Future<bool> isLoggedIn() async {
